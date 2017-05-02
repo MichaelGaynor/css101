@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Practice</title>
+  <style type="text/css">
+
+
+
+    body{
+      text-align: center;
+      background-color: purple;
+      position: relative;
+    }
+    div#spacetaker{
+      height: 60px;
+      width: 100%;
+      background-color: purple;
+    }
+    div#nav-bar{
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      background:  lime;
+      color: purple;
+      font-size: 50px;
+      top: 0;
+      left: 0;
+    }
+    .the-box{
+      width: 300px;
+      height: 300px;
+      background-color: lime;
+      color: purple;
+      font-size: 20px;
+      padding: 10px;
+      border: 5px solid lime;
+      margin: 10px;
+      display: inline-block;
+      border-radius: 230px;
+      text-align: center;
+      font-family: Helvetica, sans-serif;
+      vertical-align: top;
+    }
+    div.the-box.one{
+      border-bottom-right-radius: 5px;
+    }
+    div.the-box.two{
+      border-bottom-left-radius: 5px;
+    }
+    div.the-box.three{
+      border-top-right-radius: 5px;
+    }
+    div.the-box.four{
+      border-top-left-radius: 5px;
+    }
+    div#blockholder{
+      border: 2px solid yellow;
+      color: lime;
+    }
+    div#the-block, #the-block-2{
+      width: 50%;
+      border: 2px dotted cyan;
+    }
+    div#meme-holder{
+      width: 300px;
+    }
+    img{
+      max-width: 100%;
+    }
+    div#footer{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: purple;
+      background-color: lime;
+      font-family: helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="nav-bar">
+    THIS IS THE MAIN NAV BAR
+  </div>
+
+  <div id="spacetaker">
+    You thought you were sneaky, eh? I see you there, disabling my fixed positioning.
+  </div>
+
+  <div class="the-box one">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box two">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box three">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box four">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box four">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box three">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box two">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box one">
+    <p>I'M A BOX</p>
+  </div>
+
+    <div class="the-box one">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box two">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box three">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div class="the-box four">
+    <p>I'M A BOX</p>
+  </div>
+
+  <div id="blockholder">
+    <div id="the-block">
+      Hi, I'm a div block thing
+    </div>
+    <div id="the-block-2">
+      Hi, I'm also a div block thing
+    </div>
+  </div>
+<!--   inline elements:
+  1. Respect left and right padding and margin, but NOT top or bottom
+  2.No problem what's on the left or right
+  3. With a few exceptions, namely image, you cannot specify the height or width of an inline element
+  4. Will gladly ignore all block level rules unless forced otherwise -->
+  <div class="the-box">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="the-box">
+    Hi
+  </div>
+  <div class="the-box">
+    Lorem ipsum dolor sit amet,
+  </div>
+
+  <div id="footer">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</body>
+</html>
