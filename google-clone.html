@@ -10,9 +10,13 @@
   }
   #header{
     text-align: right;
+    align-items: center;
   }
   .menu-item{
     display: inline-block;
+    font-size: 13px;
+    font-family: ariel, sans-serif;
+    margin-right: 10px;
   }
 
   #body{
@@ -21,6 +25,36 @@
   }
   #body img{
     max-width: 100%;
+  }
+  #body .search-bar{
+    width: 450px;
+    border: 1px solid #f1f1f1;
+    margin: 20px auto 0;
+    padding:0 20px 0 0;
+    box-shadow: 1px 3px 5px #d2d6d9;
+  }
+  #body input{
+    height: 38px;
+    width: 393px;
+    border: none;
+    outline: none;
+  }
+  #body .button-holder{
+    width: 300px;
+    display: inline-block;
+  }
+  .button-holder .button{
+    display: inline-block;
+    width: 92px;
+    height: 34px;
+    padding: 0 16px;
+    margin: 16px 4px;
+    background-color: #f1f1f1;
+    color: #757575;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 2px;
   }
 
   #footer{
@@ -36,11 +70,11 @@
 <!-- Everything will be inside this (probably) -->
   <div id="google-wrapper">
     <div id="header">
-      <div class="menu-item">Menu Item 1</div>
-      <div class="menu-item">Menu Item 2</div>
-      <div class="menu-item">Menu Item 3</div>
-      <div class="menu-item">Menu Item 4</div>
-      <div class="menu-item">Menu Item 5</div>
+      <div class="menu-item">Gmail</div>
+      <div class="menu-item">Images</div>
+      <div class="menu-item">[[]</div>
+      <div class="menu-item">O0</div>
+      <div class="menu-item">BIG</div>
     </div>
     <div id="body">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
